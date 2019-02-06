@@ -1,0 +1,53 @@
+/* Desktop */
+body {
+    padding: 2%;
+    background-color: #e0f2f1;
+}
+
+.gridContainer {
+    flex-wrap: wrap;
+}
+
+.paper {
+    flex-grow: 1;
+    padding: 1%;
+    text-align: 'center';
+}
+
+.align {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.divider {
+    padding-bottom: 2%;
+}
+
+.addPaddingLeftAndRight{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.addPaddingToBottom{
+    padding-bottom: 1%;
+}
+
+.indentation{
+    padding-left: 1%;
+}
+
+/* Smaller screens */
+@media only screen and (min-width: 208px) and (max-width: 768px){
+    img {
+        width: 50%;
+    }
+    .sizing {
+        font-size: 12px;
+    }
+}

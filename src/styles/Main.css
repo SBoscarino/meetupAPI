@@ -1,0 +1,37 @@
+body {
+    padding: 2%;
+    background-color: #e0f2f1;
+}
+
+.gridContainer {
+    flex-wrap: wrap;
+}
+
+.paper {
+    flex-grow: 1;
+    padding: 1%;
+    text-align: 'center';
+}
+
+.divider {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.addPaddingLeftAndRight{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.addPaddingToBottom{
+    padding-bottom: 1%;
+}
+
+.indentation{
+    padding-left: 1%;
+}
+
+.link{
+ text-decoration: none;
+ color: #004d40;
+}

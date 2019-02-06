@@ -1,0 +1,50 @@
+body {
+    padding: 2%;
+    background-color: #e0f2f1;
+}
+
+root {
+    flex-grow: 1;
+}
+
+.paper {
+    padding: 2%;
+}
+
+.align {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.divider {
+    padding-bottom: 2%;
+}
+
+.addPaddingLeftAndRight{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.addPaddingToBottom{
+    padding-bottom: 1%;
+}
+
+.indentation{
+    padding-left: 1%;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.link{
+ text-decoration: none;
+ color: #004d40;
+}
