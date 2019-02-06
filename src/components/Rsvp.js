@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import '../styles/Rsvp.css'
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
@@ -33,9 +34,9 @@ class Rsvp extends React.Component {
 			return (
 				<div>
 					<Paper className="paper">
-						<h1>Hello. Please login to continue.</h1>
+						<h1>Hello. Please sign in with Meetup to continue.</h1>
 						<Button variant="outlined">
-							<a className="link" href={url}>Login</a>
+							<a className="link" href={url}>Sign In</a>
 						</Button>
 					</Paper>
 				</div>
@@ -70,6 +71,9 @@ class Rsvp extends React.Component {
 	render(){
 		return(	
 			<div className="section">
+				<Button variant="outlined">
+					<Link className="link" to="/">Sign Out</Link> 
+				</Button>
 				<h1 className="addPaddingLeftAndRight">ReactJS Dallas RSVPs</h1>
 				<Divider className="divider" />
 				<br/>

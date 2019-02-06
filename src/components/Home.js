@@ -27,9 +27,9 @@ class Home extends React.Component {
 			return (
 				<div>
 					<Paper className="paper">
-						<h1>Hello. Please login to continue.</h1>
+						<h1>Hello. Please sign in with Meetup to continue.</h1>
 						<Button variant="outlined">
-							<a className="link" href={url}>Login</a>
+							<a className="link" href={url}>Sign In</a>
 						</Button>
 					</Paper>
 				</div>
