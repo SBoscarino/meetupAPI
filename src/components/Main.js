@@ -37,7 +37,7 @@ class Main extends React.Component {
     		.then(data => this.setState({ data, dataFlag: true }));
 		}
 		else if(typeof this.state.token === 'undefined'){		
-			let url = `https://secure.meetup.com/oauth2/authorize?client_id=${process.env.REACT_APP_OAUTH_KEY}&response_type=token&redirect_uri=https://b795f2da.ngrok.io`
+			let url = `https://secure.meetup.com/oauth2/authorize?client_id=${process.env.REACT_APP_OAUTH_KEY}&response_type=token&redirect_uri=https://meetup-api-boscarino.herokuapp.com/`
 			return (
 				<div>
 					<Paper className="paper">

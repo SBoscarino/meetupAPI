@@ -29,7 +29,7 @@ class Rsvp extends React.Component {
 			return
 		}
 		else if(typeof this.state.token === 'undefined'){		
-			let url = `https://secure.meetup.com/oauth2/authorize?client_id=${process.env.REACT_APP_OAUTH_KEY}&response_type=token&redirect_uri=https://f02baea3.ngrok.io`
+			let url = `https://secure.meetup.com/oauth2/authorize?client_id=${process.env.REACT_APP_OAUTH_KEY}&response_type=token&redirect_uri=https://meetup-api-boscarino.herokuapp.com/`
 			return (
 				<div>
 					<Paper className="paper">
